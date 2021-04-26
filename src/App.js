@@ -117,6 +117,15 @@ const Credits = styled.div`
   justify-content: center;
   justify-self: center;
 
+  a {
+    text-decoration: underline;
+    color: black;
+    :visited {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
 `;
 
 
